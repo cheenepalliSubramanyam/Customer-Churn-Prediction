@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Churn Prediction</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+   <h1>Telecom Customer Churn Prediction</h1>
+    <p>Predict customer churn using machine learning</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Enter Customer Details</h2>
+      <form id="churnForm">
+        <div class="form-group">
+          <label>Monthly Charges</label>
+          <input type="number" step="any" id="monthlyCharges" required />
+        </div>
+
+        <div class="form-group">
+          <label>Total Charges</label>
+          <input type="number" step="any" id="totalCharges" required />
+        </div>
+
+        <div class="form-group">
+          <label>Internet Service</label>
+          <select id="internetService">
+            <option value="Fiber optic">Fiber optic</option>
+            <option value="DSL">DSL</option>
+            <option value="No">No</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Tenure (Months)</label>
+          <input type="number" id="tenure" required />
+        </div>
+
+        <div class="form-group">
+          <label>Contract</label>
+          <select id="contract">
+            <option value="Month-to-month">Month-to-month</option>
+            <option value="One year">One year</option>
+            <option value="Two year">Two year</option>
+          </select>
+        </div>
+
+        <button type="submit">Predict</button>
+      </form>
+      <div id="result"></div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Churn Predictor | Built with FastAPI + HTML</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
