@@ -1,0 +1,12 @@
+# Core model prediction
+catboost==1.2.5
+numpy==1.23.5  # Required by catboost
+joblib==1.3.2
+
+
+# FastAPI backend
+fastapi==0.112.1
+uvicorn==0.30.6
+pydantic==2.7.1
+python-dotenv==1.0.1
+mangum==0.17.0 

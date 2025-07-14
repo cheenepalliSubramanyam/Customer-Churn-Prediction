@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.txt
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+.git/
+.gitignore
+.dockerignore
+Dockerfile
+README.md
+Frontend/node_modules/
