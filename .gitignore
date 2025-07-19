@@ -1,5 +1,8 @@
 # Ignore virtual environment
 venv/
+ENV/
+env/
+.venv/
 
 # Ignore Python cache
 __pycache__/
@@ -16,3 +19,8 @@ catboost_info/
 # Ignore model files if too large (optional)
 *.joblib
 *.pkl
+*.h5
+
+# Ignore VSCode or IDE folders (optional, but useful)
+.vscode/
+.idea/
