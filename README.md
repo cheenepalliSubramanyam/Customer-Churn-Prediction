@@ -118,5 +118,4 @@ This allows:
 
 
 
-## 🔄 Project Workflow
 
