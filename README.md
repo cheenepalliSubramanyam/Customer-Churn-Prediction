@@ -59,27 +59,16 @@ The model is trained on the **IBM Telecom Churn Dataset (7,000+ records)** and d
 
 ## 🔄 Project Workflow
 
-Data Collection
-↓
-Data Cleaning & Preprocessing
-↓
-Exploratory Data Analysis (EDA)
-↓
-Feature Engineering
-↓
-SMOTE for Class Imbalance
-↓
-Model Training
-↓
-Model Evaluation
-↓
-API Development (FastAPI)
-↓
-Dockerization
-↓
-AWS Cloud Deployment
-
-
+- Data Collection  
+- Data Cleaning & Preprocessing  
+- Exploratory Data Analysis (EDA)  
+- Feature Engineering  
+- SMOTE for Class Imbalance  
+- Model Training  
+- Model Evaluation  
+- API Development (FastAPI)  
+- Dockerization  
+- AWS Cloud Deployment  
 
 ---
 
@@ -90,7 +79,6 @@ AWS Cloud Deployment
 - Returns prediction instantly  
 - Fully dockerized and cloud-ready  
 
----
 
 ## 🐳 Docker Support
 
